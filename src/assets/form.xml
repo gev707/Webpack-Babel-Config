@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+  <Employee name="#$$Employee Name$$#">
+  <age>#$$Age$$#</age>
+  <salary>#$$Salary$$#</salary>
+  <address>
+    <street>#$$Street$$#</street>
+    <city>#$$City$$#</city>
+    <state>#$$State$$#</state>
+    <zip>#$$Zip$$#</zip>
+  </address>
+  <body>Finished file</body>
+  </Employee>

@@ -1,0 +1,45 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 56px;
+  padding: 0 2.5rem;
+  background: $headerBg;
+  .logo {
+    display: flex;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    img {
+      animation-name: rotating;
+      animation-duration: 5s;
+      animation-timing-function: ease-in-out;
+      animation-delay: 0s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+      animation-fill-mode: backwards;
+      animation-play-state: running;
+    }
+    @keyframes rotating {
+      from {
+        transform: rotateY(0);
+      }
+      to {
+        transform: rotate(180deg);
+      }
+    }
+  }
+  .nav {
+    &__items {
+      display: flex;
+      &__item {
+        margin-left: 18px;
+        a {
+          color: $textColor;
+          font-weight: $thinnerFont;
+        }
+      }
+    }
+  }
+}

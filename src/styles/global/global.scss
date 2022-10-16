@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: $deviceWidth;
+  height: $deviceHeight;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-family: Poppins, sans-serif;
+
+  a {
+    text-decoration: none;
+  }
+  li {
+    list-style: none;
+  }
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.4);
+  width: 80vw;
+  height: 100%;
+  margin: 0 auto;
+
+  h1 {
+    color: rgb(12, 8, 27);
+    margin-bottom: 1rem;
+    font-weight: $thinnerFont;
+  }
+}
